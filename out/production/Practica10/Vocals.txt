@@ -1,5 +1,5 @@
-i x 38
-e x 59
-a x 29
-o x 25
-u x 17
+i x 38 -> Total = 126
+e x 59 -> Total = 126
+a x 29 -> Total = 126
+o x 25 -> Total = 168
+u x 17 -> Total = 168

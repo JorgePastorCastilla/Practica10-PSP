@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fe629fa-8005-4528-91c5-c935f8530264" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica10/Entrada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica10/Entrada.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica10/Hilo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica10/Hilo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica10/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practica10/Vocals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practica10/Vocals.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hilo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hilo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vocals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vocals.txt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,23 +28,17 @@
   </component>
   <component name="ProjectId" id="1UFzTCN26PzH1N6VFDcgTBTxq58" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P3" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -58,6 +54,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,6 +80,7 @@
       <workItem from="1575036994173" duration="27000" />
       <workItem from="1575053014904" duration="2490000" />
       <workItem from="1575056021229" duration="1527000" />
+      <workItem from="1575120196372" duration="821000" />
     </task>
     <servers />
   </component>
@@ -83,10 +92,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1575121077916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.64.1280.1024@0.0.1920.1040" timestamp="1575121077916" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1575121059266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.64.1280.1024@0.0.1920.1040" timestamp="1575121059266" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1575121059266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.64.1280.1024@0.0.1920.1040" timestamp="1575121059266" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1575121059266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.64.1280.1024@0.0.1920.1040" timestamp="1575121059266" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1575121059266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.64.1280.1024@0.0.1920.1040" timestamp="1575121059266" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575120196846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.64.1280.1024@0.0.1920.1040" timestamp="1575120196846" />
   </component>
 </project>

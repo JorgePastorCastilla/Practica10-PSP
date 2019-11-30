@@ -4,17 +4,17 @@ public class Hilo extends Thread {
 
     private char vocal;
     private char vocalMayuscula;
-    private static int cuentaVocales = 0;
+    public static int cuentaVocales = 0;
     private int cuentaVocal = 0;
-    String rutaEntrada = "C:\\Users\\Alumne\\IdeaProjects\\PSP\\Practica10\\src\\Entrada.txt";
-    String rutaSalida = "C:\\Users\\Alumne\\IdeaProjects\\PSP\\Practica10\\src\\Vocals.txt";
+    String rutaEntrada = "src/Entrada.txt";
+    String rutaSalida = "src/Vocals.txt";
 
     public Hilo(char vocal, char vocalMayuscula){
         this.vocal = vocal;
         this.vocalMayuscula = vocalMayuscula;
     }
 
-    public synchronized void leerArchivo(){
+    public void leerArchivo(){
 
         try(BufferedReader br = new BufferedReader( new FileReader(rutaEntrada) ) ) {
             int p;
@@ -23,11 +23,11 @@ public class Hilo extends Thread {
                 vocal = (char) p;
                 if (vocal == this.vocal || vocal == this.vocalMayuscula){
                     cuentaVocal++;
-                    cuentaVocales++;
+                    sumarVocales();
                 }
             }
             try( BufferedWriter bw = new BufferedWriter( new FileWriter( rutaSalida, true ) ) ) {
-                bw.write(this.vocal + " x " + cuentaVocal);
+                bw.write(this.vocal + " x " + cuentaVocal + " -> Total = " + cuentaVocales);
                 bw.newLine();
                 //escribirTotal();
             } catch (IOException ex) {
@@ -36,8 +36,11 @@ public class Hilo extends Thread {
         }catch (Exception e){
 
         }
-
     }
+    public synchronized void sumarVocales(){
+        cuentaVocales++;
+    }
+
 
     private synchronized void escribirTotal() {
         try( BufferedWriter bw = new BufferedWriter( new FileWriter( rutaSalida ) ) ) {

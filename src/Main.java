@@ -16,7 +16,6 @@ public class Main {
         hiloi.start();
         hiloo.start();
         hilou.start();
-
     }
 
 }
